@@ -1,0 +1,6 @@
+flask
+pymongo
+pandas
+xgboost
+scikit-learn
+matplotlib
