@@ -60,7 +60,7 @@ Each document:
   "date": "2025-07-01",
   "values": [511.47, 510.89, ..., 455.78]
 }
-
+```
 
 ---
 
@@ -71,6 +71,7 @@ Each document:
 ```bash
 git clone https://github.com/arkm315787/ai-carbon-intensity.git
 cd ai-carbon-intensity
+```
 ---
 
 2. Install Dependencies
