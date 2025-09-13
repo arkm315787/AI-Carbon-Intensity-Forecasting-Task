@@ -2,7 +2,7 @@
 
 This project is part of the **Zerofy AI Carbon Intensity Coding Task**. It includes:
 
-- A recursive **XGBoost model** to forecast carbon intensity for the next 24 hours.
+- **XGBoost model** to forecast carbon intensity for the next 24 hours.
 - A **Flask API** with MongoDB backend to serve and retrieve forecasts.
 
 ---
@@ -10,7 +10,7 @@ This project is part of the **Zerofy AI Carbon Intensity Coding Task**. It inclu
 ## Forecasting Model
 
 ### Model Type
-- **Recursive XGBoost Regressor** using:
+- **XGBoost Regressor** using:
   - Lag features: `lag1`, `lag2`, `lag24`
   - Time-based features: `hour`, `day of week`, `is_weekend`
   - Sine/cosine encoding of hour
@@ -78,12 +78,14 @@ cd ai-carbon-intensity
 
 ```bash
 pip install -r requirements.txt
+```
 ---
 
 3. Start the web server:
 
 ```bash
 python app.py
+```
 ---
 
 4. Test endpoints:
@@ -91,6 +93,7 @@ python app.py
 ```bash
 curl -X POST http://127.0.0.1:5000/forecast
 curl http://127.0.0.1:5000/forecast/YYYY-MM-DD
+```
 ---
 
 Or use Python
@@ -99,5 +102,6 @@ Or use Python
 import requests
 requests.post("http://127.0.0.1:5000/forecast")
 requests.get("http://127.0.0.1:5000/forecast/2025-07-01")
+```
 ---
 
