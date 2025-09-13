@@ -23,10 +23,10 @@ This project is part of the **Zerofy AI Carbon Intensity Coding Task**. It inclu
 | Dataset | Method         | MAE     | RMSE    |
 |---------|----------------|---------|---------|
 | Val     | Baseline-24h   | 52.56  | 69.56  |
-| Val     | XGBoost (best) | 13.63  | 20.11  |
+| Val     | XGBoost (best) | 13.49  | 19.96  |
 | Test    | Baseline-24h   | 83.17  | 108.11 |
-| Test    | XGBoost (final)| 13.81  | 19.44  |
-| Test    | MINN (final)   | 19.95  | 26.31  |
+| Test    | XGBoost (final)| 13.82  | 19.53  |
+| Test    | MINN (final)   | 16.51  | 22.51  |
 
 ---
 
