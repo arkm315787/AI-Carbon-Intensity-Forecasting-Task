@@ -68,9 +68,9 @@ Each document:
 ## 🚀 How to Run
 
 1. Clone the repo:
-   ```bash
-   git clone https://github.com/arkm315787/ai-carbon-intensity.git
-   cd ai-carbon-intensity
+```bash
+git clone https://github.com/arkm315787/ai-carbon-intensity.git
+cd ai-carbon-intensity
 
 2. Install Dependencies
 ```bash
