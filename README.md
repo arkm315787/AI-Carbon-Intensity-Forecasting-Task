@@ -161,7 +161,7 @@ NGBoost: A gradient boosting framework that directly models predictive distribut
 
 ---
 
-**Q1. How do you evaluate forecast accuracy?
+**Q1. How do you evaluate forecast accuracy?**
 
 - I evaluated forecast accuracy using two standard metrics:
 
@@ -179,7 +179,7 @@ I also included a simple naïve baseline (24h lag) for both sets to benchmark mo
 
 ---
 
-**Q2. What worked well?
+**Q2. What worked well?**
 
 - Recursive XGBoost modeling: performed well with limited data, handled temporal lags efficiently.
 
@@ -191,7 +191,7 @@ I also included a simple naïve baseline (24h lag) for both sets to benchmark mo
 
 ---
 
-** Q3. What didn’t work well?
+**Q3. What didn’t work well?**
 
 - Longer lags (e.g., lag 48+) and complex derived features introduced instability and noise due to limited training data.
 
@@ -199,7 +199,7 @@ I also included a simple naïve baseline (24h lag) for both sets to benchmark mo
 
 ---
 
-** Q5. What are the key drivers of carbon intensity in electricity grids?
+**Q5. What are the key drivers of carbon intensity in electricity grids?**
 
 Key drivers include:
 
