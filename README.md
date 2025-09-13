@@ -73,19 +73,23 @@ git clone https://github.com/arkm315787/ai-carbon-intensity.git
 cd ai-carbon-intensity
 
 2. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 
 3. Start the web server:
+
 ```bash
 python app.py
 
 4. Test endpoints:
+
 ```bash
 curl -X POST http://127.0.0.1:5000/forecast
 curl http://127.0.0.1:5000/forecast/YYYY-MM-DD
 
 Or use Python
+
 ```bash
 import requests
 requests.post("http://127.0.0.1:5000/forecast")
